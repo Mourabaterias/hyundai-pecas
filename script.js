@@ -424,7 +424,7 @@ const SiteFeatures = {
     },
 
     formatFormMessage: (data) => {
-        let message = 'OlÃ¡, solicito o setor de peÃ§as por gentileza...';
+        let message = 'Olá, solicito o setor de peças por gentileza...';
         
         Object.entries(data).forEach(([key, value]) => {
             if (value) {
@@ -493,7 +493,7 @@ const Performance = {
 
 // FunÃ§Ãµes globais chamadas pelos botÃµes
 function consultarWhatsApp(modelo, ano, peca) {
-    const message = 'OlÃ¡, solicito o setor de peÃ§as por gentileza...';
+    const message = 'Olá, solicito o setor de peças por gentileza...';
     
     Utils.openWhatsApp(message);
 }
