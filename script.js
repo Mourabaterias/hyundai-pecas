@@ -508,7 +508,7 @@ function consultarCategoria(categoria) {
         'suspensao': 'SuspensÃ£o (Amortecedores, Molas, Buchas)'
     };
     
-    const message = 'OlÃ¡, solicito o setor de peÃ§as por gentileza...';
+    const message = 'Olá, solicito o setor de peças por gentileza...';
     
     Utils.openWhatsApp(message);
 }
@@ -519,7 +519,7 @@ function solicitarOrcamento() {
 }
 
 function falarEspecialista() {
-    const message = 'OlÃ¡, solicito o setor de peÃ§as por gentileza...';
+    const message = 'Olá, solicito o setor de peças por gentileza...';
     Utils.openWhatsApp(message);
 }
 
@@ -540,12 +540,12 @@ function selecionarModelo(modelo) {
         SearchForm.saveFormData();
     }
     
-    const message = 'OlÃ¡, solicito o setor de peÃ§as por gentileza...';
+    const message = 'Olá, solicito o setor de peças por gentileza...';
     Utils.openWhatsApp(message);
 }
 
 function abrirWhatsApp() {
-    const message = 'OlÃ¡, solicito o setor de peÃ§as por gentileza...';
+    const message = 'Olá, solicito o setor de peças por gentileza...';
     Utils.openWhatsApp(message);
 }
 
